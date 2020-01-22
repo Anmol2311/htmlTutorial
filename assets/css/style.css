@@ -1,0 +1,111 @@
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.page-title {
+    padding: 15px 0;
+    color: red;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .listType {
+    border: 2px solid black;
+    width: 30%;
+    padding: 15px;
+}
+
+.wrapper .listType h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 15px 0;
+}
+
+dl dt{
+    font-weight: 700;
+}
+
+.table{
+    margin: 0 auto;
+}
+
+.table,
+.t-head,
+.t-data,
+.t-row {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.table tr th:first-child{
+    width: 5%;
+    text-align: center;
+}
+.table tr td:first-child{
+    width: 5%;
+    text-align: center;
+}
+.table tr th:last-child{
+    width: 20%;
+}
+.table tr td:last-child{
+    text-align: center;
+}
+.table tr td:nth-child(1),.table tr td:nth-child(2){
+    font-weight: 700;
+}
+
+.table td a{
+    color: blue;
+}
+
+.table td a:hover{
+    color: red;
+}
+
